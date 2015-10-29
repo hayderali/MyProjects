@@ -1,0 +1,49 @@
+body{
+
+background-color: black;
+color: blue;
+
+}
+/* changing the first list*/
+ul.personalinfo {
+
+color: green;
+font-weight: 90;
+float: right;
+			
+}
+
+/**/
+p{
+color: red;
+}
+
+a{
+
+text-decoration:none;
+	
+}
+
+p.summary{
+
+line-height: 1.5;
+}
+
+h1 {
+ border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+
+.img {
+
+	position: fixed;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #8AC007;
+
+}
