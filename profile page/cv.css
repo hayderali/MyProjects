@@ -29,6 +29,7 @@ background-color: #FF1493;
 #menu ul{
 
   text-align: center;
+
 }
 
 #menu li{
@@ -41,7 +42,9 @@ background-color: #FF1493;
     font-weight: bold;
     color: #FFFFFF;
     background-color: #98bf21;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -54,27 +57,34 @@ a:hover{
 }
 
 
-p.detail{
 
-    font-weight: 900;
-    font-size: 20px;
-    text-align: center;
-}
 
-p.summary{
 
-line-height: 1.5;
-color:red;
-}
 
 div.infobox {
+    background-color: #96B0FF;
     position: fixed;
-    background-color: white;
     border-style: double;
     border-width: 10px;
     border-color: red;
     width: 98.5%;
 }
+
+
+
+p.detail{
+    color: #E5F2FF;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+div.space{
+
+    
+}
+
 
 div.summarybox {
      margin-bottom: 10px;
@@ -87,6 +97,11 @@ div.summarybox {
     margin: 0 auto;
 }
 
+p.summary{
+
+line-height: 1.5;
+color:red;
+}
 
 
 div.educationbox{
@@ -104,14 +119,3 @@ div.employmentbox{
    border-width: 10px;
     border-color: red;
 }
-
-
-/*#profilepic {
-
-	position: absolute;
-    top: 22px;
-    height: 110px;
-    width: 110px;
-    right: 8rem;
-
-}*/
