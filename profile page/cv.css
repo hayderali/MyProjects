@@ -18,7 +18,7 @@ h1{
 
 text-align: center;
 font-size: 30px;
-color: #0066FF;
+color: white;
 
 
 }
@@ -33,7 +33,7 @@ top:15px;
 }
 
 p.detail{
-    color: #E5F2FF;
+    color: white;
     font-weight: 900;
     font-size: 20px;
     text-align: center;
@@ -136,4 +136,15 @@ line-height: 1.5;
     border-color: #4DB8FF;
 	width: 80%;
 	margin: 0 auto;
+}
+
+.footer{
+	background-color: #66A3FF;
+	border-radius:25px;
+    border-style: solid;
+   border-width: 10px;
+    border-color: #4DB8FF;
+	width: 100%;
+	margin: 0 auto;
+	
 }
