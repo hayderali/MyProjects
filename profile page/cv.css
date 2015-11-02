@@ -6,71 +6,31 @@ overflow: hidden;
 
 body{
 
-background-color: white;
-color: blue;
-    margin: 0;
+background: url(sky.jpg);
+background-size: cover;
+margin: 0;
 
 }
+
+
 
 h1{
 
-
 text-align: center;
 font-size: 30px;
+color: #0066FF;
+
 
 }
 
-h2 {
+#hayder{
 
-color: maroon;
-background-color: #FF1493;
+border-radius: 50%;
+position:fixed;
+width: 150px;
+left:20px;
+top:15px;
 }
-
-#menu ul{
-
-  text-align: center;
-
-}
-
-#menu li{
-    display: inline;
-}
-
-
-
-#menu a{
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-
-
-a:hover{
-    background-color: #7A991A;
-}
-
-
-
-
-
-
-div.infobox {
-    background-color: #96B0FF;
-    position: fixed;
-    border-style: double;
-    border-width: 10px;
-    border-color: red;
-    width: 98.5%;
-}
-
-
 
 p.detail{
     color: #E5F2FF;
@@ -79,43 +39,101 @@ p.detail{
     text-align: center;
 }
 
+#nav ul{
 
-div.space{
-
-    
+  text-align: center;
+  top: 200px;
 }
 
-
-div.summarybox {
-     margin-bottom: 10px;
-    margin-top: 20px;    
-    border-style: double;
-   border-width: 10px;
-    border-color: red;
-
-    width: 80%;
-    margin: 0 auto;
+#nav li{
+    display: inline;
 }
+
+#nav a{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0099FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2 {
+
+color: #0066FF;
+background-color: #66A3FF;
+}
+
 
 p.summary{
 
 line-height: 1.5;
-color:red;
 }
 
-
-div.educationbox{
-    margin-bottom: 10px;
-    margin-top: 20px;
-    border-style: double;
+.header{
+    background-color: #66A3FF;
+    position: fixed;
+    border-style: solid;
+	padding: 10px;
     border-width: 10px;
-    border-color: red;
+    border-color: #4DB8FF;
+	border-radius: 25px;
+    width: 98.5%;
+	z:index:1000;
+	height: 140px;
 }
 
-div.employmentbox{
-     margin-bottom: 10px;
-    margin-top: 20px;
-    border-style: double;
+.summarybox {
+	background-color: #66A3FF;
+    border-radius:25px;
+	margin-bottom: 10px;    
+	border-style: solid;
+    border-width: 10px;
+    border-color: #4DB8FF;
+    width: 80%;
+    margin: 0 auto;
+	padding-top: 150px;
+	
+}
+
+.educationbox{
+	background-color: #66A3FF;
+	border-radius:25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4DB8FF;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.employmentbox{
+	background-color: #66A3FF;
+	border-radius:25px;
+    border-style: solid;
    border-width: 10px;
-    border-color: red;
+    border-color: #4DB8FF;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.employmentbox{
+	background-color: #66A3FF;
+	border-radius:25px;
+    border-style: solid;
+   border-width: 10px;
+    border-color: #4DB8FF;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.formbox{
+	background-color: #66A3FF;
+	border-radius:25px;
+    border-style: solid;
+   border-width: 10px;
+    border-color: #4DB8FF;
+	width: 80%;
+	margin: 0 auto;
 }
